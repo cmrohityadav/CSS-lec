@@ -1,0 +1,33 @@
+/* descendent selector */
+main p{
+    color: aqua;
+}
+
+/* child selector */
+article>p{
+    color: blue;
+}
+article>h1>p{
+    color: greenyellow;
+}
+
+/* ajdacent sibling selector */
+section+p{
+    color: brown;
+}
+
+/* General sibling selector */
+
+div ~p{
+    color: rgb(214, 33, 196);
+}
+
+/* attribute selector */
+[target="_blank"]{
+    color: cadetblue;
+}
+
+
+[alt~="rohit"]{
+    background-color: black;
+}
