@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        p{border: 1px solid red;
+            
+                display: inline;
+        }
+        span{ border: 1px solid red;
+            display:block ;
+        }
+        .in-bck{
+            border: 2px solid blue;
+            display: inline-block;
+            /* inline-block krne se hum content to manage kr skte hai
+            unko height and width de skte hai */
+            width: 100px;
+            height: 250px;
+        }
+        .dn{
+            display: none;
+            /* isse content gayab ho jata hai */
+        }
+    </style>
+</head>
+<body>
+    <!-- display property==> Inline -->
+    <!-- p is block level -->
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsa nemo pariatur suscipit corporis maxime laborum vero consequuntur fugiat quas similique impedit quia odit voluptas aspernatur omnis officia nesciunt obcaecati commodi, sapiente architecto amet eveniet autem odio. Optio minus atque, tempore aspernatur deserunt illum quidem iusto ad animi unde minima.</p>
+    <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, illo.</p>
+<br>
+    <!-- span ==> Inline element -->
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, expedita!</span>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, expedita!</span>
+<p class="in-bck">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere animi totam, veniam mollitia atque magnam ipsam vel fugiat ad impedit.</p>
+<p class="in-bck">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere animi totam, veniam mollitia atque magnam ipsam vel fugiat ad impedit.</p>
+ <p class="dn"> display none</p>
+</body>
+</html>
+<!-- https://purple-psychiatrist-aibem.pwskills.app:5500/03_26Jan23/04_display.html -->
