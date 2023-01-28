@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        /* p:hover{
+            color: lightblue;
+        } */
+        .hoverClass:hover{
+            background-color: aqua;
+            color: red;
+        }
+        input:hover{
+            background-color: black;
+            color: #fff;
+            font-size: 45px;
+        }
+        a:hover{
+            color: red;
+        }
+
+        /* active ==> jab link pe click karege tabhi ka color  */
+        a:active{
+            color: rgb(0, 255, 13);
+        }
+        a:visited{
+            color:orchid;
+        }
+        first-child
+        a:first-child{
+            background-color: black;
+        }
+
+        /* nth child */
+        .nth a:nth-child(2n){
+            color: aquamarine;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!-- pseudo  -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, illum!</p>
+    <p class="hoverClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, tenetur?</p>
+
+    <input type="text">
+    <a href="https://www.google.com">Google is here</a>
+
+    <!-- first-child -->
+    <div>
+        <a href="#">Here Rohit</a>
+        <a href="#">here Yadav</a>
+    </div>
+<!-- nth child -->
+<div class="nth">
+    <a href="#">Rohit.com</a>
+    <a href="#">Rohit.com</a>
+    <a href="#">Rohit.com</a>
+    <a href="#">Rohit.com</a>
+    <a href="#">Rohit.com</a>
+    </div>
+
+</body>
+</html>
+<!-- https://purple-psychiatrist-aibem.pwskills.app:5500/04_27Jan23/01_pseudoClaasses.html -->
