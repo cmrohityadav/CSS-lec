@@ -1,0 +1,63 @@
+
+div{
+    text-align: center;
+    font-size: x-large;
+}
+@media (max-width:600px){
+    /* Phone */
+    body{
+        background-color: red;
+    }
+    div::after{
+        content: 'This is for the Mobile';
+    }
+}
+
+@media (min-width:600px){
+    /* 600px-768px */
+    /* portrait tablet and big phone */
+    body{
+        background-color:aquamarine ;
+    }
+    div::after{
+        content: 'This is for portrait tablet and big phone  ';
+
+    }
+}
+
+@media (min-width:768px){
+    /* 768px-992px */
+/* tablet */
+    body{
+        background-color:rgb(150, 127, 255) ;
+    }
+    div::after{
+        content: 'This is for tablet  ';
+
+    }
+}
+
+
+@media (min-width:992px){
+/* laptop */
+/* 992px-1200px */
+    body{
+        background-color:rgb(233, 243, 50) ;
+    }
+    div::after{
+        content: 'This is for laptop ';
+
+    }
+}
+
+
+@media(min-width:1200px){
+    /* for large screen */
+    body{
+        background-color:rgb(50, 243, 108) ;
+    }
+    div::after{
+        content: 'This is for Large Screen ';
+
+    }
+}
