@@ -1,0 +1,57 @@
+body{
+    background-color: red;
+}
+div{
+    font-size: x-large;
+    text-align: center;
+}
+div::after{
+    content: 'welcome to media Query ';
+}
+
+
+    /* if viewport is atleast 900px
+    then this style will apply */
+    /* itna ya jisse jyada screen hai to apply kr do */
+
+
+
+/* @media (min-width:900px){
+    body{
+        background-color: rgb(255, 255, 127);
+    }
+    div::after{
+        content: 'Its working';
+    }
+}   */
+
+
+
+/* 
+@media (max-width:500px){
+    body{
+        background-color: chartreuse;
+
+    }
+    div::after{
+        content: 'Rahul';
+    }
+} */
+
+/* conditional  */
+/* @media (min-width:400px) and (max-width:768){
+    body{
+        background-color: rgb(38, 206, 195);
+    }
+    div::after{
+        content: 'conditional';
+    }
+} */
+
+/* new version media query */
+@media (1000px <= width <= 1200px ){
+    body{
+        background-color: black;
+    }
+}
+
