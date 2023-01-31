@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox Item</title>
+    <style>
+         .cont{
+            border: 1px solid black;
+            height: 400px;
+
+            display: flex;
+         }
+
+
+         .box{
+            width: 200px;
+            height: 200px;
+        }
+         
+        .box1{
+            background-color: red;
+            /* order: 1; */
+            /* by default order hamesha zero hota hai */
+
+
+            /* flex-shrink: 10; */
+             /* flex items k ratio me shrik hoga jaise isme -2x */
+        }
+        .box2{
+            background-color: yellow;
+            /* flex-grow: 2; */
+            /* flex items k ratio me grow hoga jaise isme +2x */
+
+
+            align-self: flex-end;
+        }
+        .box3{
+            background-color: blue;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+    </div>
+</body>
+</html>
