@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        /* parent */
+        .cont{
+            border: 1px solid black;
+
+
+            display: flex;
+            /* flex block level hai */
+
+
+           
+            /* display: inline-flex; */
+            /* inline flex inline level hai */
+
+
+
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: row; */
+
+
+
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap-reverse; */
+
+
+            /* flex-flow: flex-direction    flex-wrap; */
+            flex-flow: end wrap;
+
+            /* justify-content: center; */
+            /* justify-content: space-around;
+            justify-content: space-between;
+            justify-content:  space-evenly; */
+            /* justify-content ==> x-axis or main axis pe chalta hai */
+
+
+
+            /* align-items: center; */
+            /* align-items: stretch; */
+            /* align-item ==> y-axis or cross axis pe chalta hai */
+            /* iske liye hume .box ka height and width niklna hoga and container ko dena hoga*/
+            /* height: 100px; */
+
+
+            /* gap: 100px;
+            row-gap: 10px;
+            column-gap: 200px; */
+            /* space b/w box */
+
+
+
+            /* align-content:center; */
+
+        }
+
+        /* child  */
+        .box{
+            width: 100px;
+            height: 100px;
+        }
+         
+        .box1{
+            background-color: red;
+
+        }
+        .box2{
+            background-color: yellow;
+        }
+        .box3{
+            background-color: blue;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+    </div>
+</body>
+</html>
+<!-- https://purple-psychiatrist-aibem.pwskills.app:5500/07_30Jan23/01_flexBox.html -->
