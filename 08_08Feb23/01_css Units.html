@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units in CSS</title>
+
+    <style>
+        main {
+            border: 5px solid brown;
+            /* width: 50%; */
+            /* % is relative to parent  */
+
+            /* width: 100vw; */
+            /* vh and vw and px is absolute */
+            /* 1em=16px */
+            /* em is relative to their parent */
+
+
+            /* agar hamne px define kiya hai to wo har ek screen pe same rahega */
+
+            /* rem==> relative to the root means (html) */
+        }
+        section {
+            border: 5px dashed green;
+            width: 50vw;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>h1 = 32px</h1>
+    </header>
+    <main>
+        <section>
+            <h3>h3 = 18.72px</h2>
+                <p>p = 16px</p>
+        </section>
+    </main>
+
+</body>
+
+</html>
