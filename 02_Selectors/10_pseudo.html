@@ -5,12 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+div:hover{
+    background-color: black;
+    color: azure;
+}
+button:hover{
+    background-color: #e20f0f;
+}
+p:hover{
+    font-size: larger;
+    color: blue;
+}
 
+.btn{
+    background-color: hsl(243, 88%, 47%);
+
+}
+#abc:active{
+    color: rgb(255, 255, 255);
+    background-color: chartreuse;
+}
+
+#eff:active{
+    background-color: #f79191;
+    font-weight: 300;
+}
+input[type="checkbox"]:checked+label{
+    color: #e20f0f;
+}
+div:nth-of-type(2n){
+    background-color: #40d069;
+}
 
     </style>
 </head>
 <body>
     
-    
+    <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, tenetur?</p>
+        <button>Hello</button>
+    </div>
+
+    <div>
+        <button class="btn">Non active</button>
+        <button class="btn" id="abc">Active </button>
+        <button class="btn">Non active</button>
+    </div>
+    <div>
+        <p id="eff">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure enim nam consequuntur sint unde ipsum suscipit cum ipsam aspernatur, consequatur vitae amet perspiciatis architecto aut obcaecati possimus! Cumque sapiente ab ipsum ipsam sed quibusdam omnis ratione illum dolorum, ut debitis architecto in animi velit adipisci voluptas eveniet a tempora eos, ipsa quaerat laborum voluptatibus natus. Nesciunt inventore tempora dolores est, eum nisi, sequi cumque temporibus soluta illum, rem atque. Doloremque quis distinctio enim qui esse hic facilis neque et officiis itaque tenetur, fugit reiciendis numquam quaerat expedita, sequi dolor minima aliquid earum incidunt magni animi. Molestias dolor libero quod sint.</p>
+
+    </div>
+    <form action=".hf.php">
+        <label for="id">yes</label>
+
+        <input type="checkbox" name="" id="id" >
+        <label for="id1">no</label>
+
+        <input type="checkbox" name="" id="id1" >
+    </form>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati deleniti quod, quas repellat harum ipsam ullam odio eius quos culpa? Quam minima impedit nihil id, est reprehenderit in reiciendis, unde aliquid quia, dolorem corrupti quisquam? Ipsam, sit? Reiciendis quasi, nostrum corrupti, labore nobis voluptatibus possimus reprehenderit eius fugiat earum voluptatum repellendus hic obcaecati. Et iusto mollitia quo maiores nam ipsa recusandae repellat voluptatibus! Accusamus, explicabo dolorum molestiae ea debitis animi officiis ab illo soluta autem laudantium nulla voluptatibus ipsa vitae nihil blanditiis exercitationem iusto. Aliquid praesentium dignissimos unde! Quam facilis eveniet voluptatum esse amet voluptate inventore autem minus ipsa hic!</p>
+        
+    </div>
 </body>
 </html>
