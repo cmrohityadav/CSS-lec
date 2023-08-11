@@ -1,0 +1,3 @@
+It sets whether an element is treated as block or inline element and the layout used for
+its children
+
