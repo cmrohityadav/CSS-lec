@@ -12,7 +12,11 @@
 
             border: 2px solid red;
 
-            display: flex; /*direction row*/
+            display: flex;
+            flex-wrap: nowrap;  /* default */
+            flex-wrap: wrap;
+            
+
           
         }
         #container div{
@@ -25,7 +29,8 @@
     </style>
 </head>
 <body>
-    <!-- it is 1D layout method for arranging item in rows or columns -->
+    <!--  sets whether flex item are forced onto one line or can wrap onto multiple line-->
+
 
     <div id="container">
 

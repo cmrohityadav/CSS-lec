@@ -6,13 +6,19 @@
     <title>Document</title>
     <style>
         #container{
-            height: 300px;
+            height: 500px;
             width: 80%;
             margin: 10px auto;
 
             border: 2px solid red;
 
             display: flex; /*direction row*/
+            /* align-content: center; */
+            align-content: baseline;
+            align-content:center;
+            flex-wrap: wrap;
+            
+           
           
         }
         #container div{
@@ -25,7 +31,7 @@
     </style>
 </head>
 <body>
-    <!-- it is 1D layout method for arranging item in rows or columns -->
+<!-- it sets distribution of space between and round content items along a flexbox cross axis -->
 
     <div id="container">
 

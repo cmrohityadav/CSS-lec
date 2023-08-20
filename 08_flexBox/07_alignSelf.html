@@ -13,6 +13,7 @@
             border: 2px solid red;
 
             display: flex; /*direction row*/
+            align-items: center;
           
         }
         #container div{
@@ -22,11 +23,14 @@
             text-align: center;
 
         }
+        #org{
+            align-self: flex-end;
+
+        }
     </style>
 </head>
 <body>
-    <!-- it is 1D layout method for arranging item in rows or columns -->
-
+<!-- align an item along cross axis -->
     <div id="container">
 
         <div  style="background-color:aqua;">aqua</div>
@@ -34,7 +38,7 @@
         <div  style="background-color: blue;">blue</div>
         <div  style="background-color: blueviolet;">violet</div>
         <div  style="background-color: chartreuse;">green</div>
-        <div  style="background-color: cadetblue;">cadeetblue</div>
+        <div id="org" style="background-color: cadetblue;">cadeetblue</div>
         <div  style="background-color: rgb(255, 21, 220);">pink</div>
     </div>
 

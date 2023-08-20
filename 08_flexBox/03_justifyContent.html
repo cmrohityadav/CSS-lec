@@ -12,12 +12,19 @@
 
             border: 2px solid red;
 
-            display: flex; /*direction row*/
-          
+            display: flex;
+            /* justify-content: flex-start; */
+            /* justify-self: flex-end; */
+            justify-content: center;
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+
+
         }
         #container div{
             height: 100px;
-            width: 300px;
+            width: 100px;
             color: white;
             text-align: center;
 
@@ -25,8 +32,9 @@
     </style>
 </head>
 <body>
-    <!-- it is 1D layout method for arranging item in rows or columns -->
-
+    <!-- tells how the browser distributes space between and around content item along main axis -->
+    <!-- according to main axis -->
+    <!-- basically x-axis -->
     <div id="container">
 
         <div  style="background-color:aqua;">aqua</div>
@@ -37,7 +45,5 @@
         <div  style="background-color: cadetblue;">cadeetblue</div>
         <div  style="background-color: rgb(255, 21, 220);">pink</div>
     </div>
-
-    
 </body>
 </html>
