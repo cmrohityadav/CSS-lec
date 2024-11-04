@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            display: flex;
+            justify-content: space-around;
+        }
+        .box{
+            height: 40px;
+            width: 20px;
+            border: 1px solid black;
+        }
+        #i3{
+            position:relative;
+            background-color: aquamarine;
+            color: red;
+        
+            left: 50px;
+            top: 10px;
+            
+        }
+        #i7{
+            position: absolute;
+            left: 50px;
+
+        }
+
+        .u,.l{
+            border: solid red 1px;
+            
+        }
+        .l{
+            position:relative;
+            height: 500px;
+            top: 100px;
+        }
+        
+        .main{
+            border: 10px solid greenyellow;
+            height: 200vh;
+            
+        }
+        #a4{
+            position: fixed;
+            top: 50px;
+            left: 100px;
+        }
+        #a8{
+            position: sticky;
+           
+            top: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="u">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box" id="i3">3</div>
+            <div class="box">4</div>
+            <div class="box" id="a4">a4</div>
+        </div>
+        <div class="l">
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box" id="i7">7 </div>
+            <div class="box">8</div>
+            <div class="box" id="a8">8a</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+          
+        </div>
+    </div>
+</body>
+</html>
